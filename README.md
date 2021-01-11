@@ -16,6 +16,6 @@ In EasyOCR it didnt allow handwritten fonts it only allows compuratrized fonts. 
 -> After that I have used NIST dataset to train my model because OCR_handwritten model were not available on any site. As i was try to train my model it consumes alot of time and    I was train my model on paperspace which only allows 6 hours on free GPU.  </br>
 -> After this I work on NIST dataset as it contains 8,10,000 images after filtering and reducing the size of data it only contains 30,000 images. </br>
 -> For training the dataset Firstly I use OCR_handwritten ver 0.0 model -- it is trained for image size of 28x28 and epoch 30. But it did'nt gives proper accuracy. after this i      have trained my model on OCR_handwritten ver 2.0 model -- it is trained for image size of 98x98 and epoch 50 and it gives accuracy of about 40-50 percent. </br>
-
+-> It only recorgnized characters. The process of detecting characters from words is still on going. After that it will able to detect complete form.
 
 
