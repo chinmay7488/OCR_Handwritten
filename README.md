@@ -1,2 +1,4 @@
 # OCR_Handwritten
-performing OCR on SBI Forms using own custom OCR model trained on tensorflow 
+OCR is an optical character recognition (OCR) tool for python. That is, it will recognize and "read" the text embedded in images.
+EasyOCR is a Python package that allows computer vision developers to effortlessly perform Optical Character Recognition.
+In EasyOCR it didnt allow handwritten fonts it only allows compuratrized fonts. For detecting handwritten fonts I have created my own dataset using NIST dataset which contains 8,10,000 images after filtering it only contains 30,000 images and I have also added 6,000 different font images. Model has been trained on tanserflow which gives accuracy of   40-50 percent. It only detects characters. The process of detecting characters from words is still going on. If we use heavy dataset OCR becames custom model which will detect handwritten fonts as well as computerized fonts. This will also improve accuracy of model.
